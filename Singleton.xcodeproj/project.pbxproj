@@ -13,6 +13,7 @@
 		A00661D7292B80FE00CD74A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A00661D5292B80FE00CD74A1 /* Main.storyboard */; };
 		A00661D9292B80FF00CD74A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A00661D8292B80FF00CD74A1 /* Assets.xcassets */; };
 		A00661DC292B80FF00CD74A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A00661DA292B80FF00CD74A1 /* LaunchScreen.storyboard */; };
+		A00661E5292B816500CD74A1 /* Singleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00661E4292B816500CD74A1 /* Singleton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		A00661D8292B80FF00CD74A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A00661DB292B80FF00CD74A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A00661DD292B80FF00CD74A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A00661E4292B816500CD74A1 /* Singleton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Singleton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		A00661CE292B80FE00CD74A1 /* Singleton */ = {
 			isa = PBXGroup;
 			children = (
+				A00661E3292B815600CD74A1 /* Singleton */,
 				A00661CF292B80FE00CD74A1 /* AppDelegate.swift */,
 				A00661D1292B80FE00CD74A1 /* SceneDelegate.swift */,
 				A00661D3292B80FE00CD74A1 /* ViewController.swift */,
@@ -63,6 +66,14 @@
 				A00661D8292B80FF00CD74A1 /* Assets.xcassets */,
 				A00661DA292B80FF00CD74A1 /* LaunchScreen.storyboard */,
 				A00661DD292B80FF00CD74A1 /* Info.plist */,
+			);
+			path = Singleton;
+			sourceTree = "<group>";
+		};
+		A00661E3292B815600CD74A1 /* Singleton */ = {
+			isa = PBXGroup;
+			children = (
+				A00661E4292B816500CD74A1 /* Singleton.swift */,
 			);
 			path = Singleton;
 			sourceTree = "<group>";
@@ -139,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A00661D4292B80FE00CD74A1 /* ViewController.swift in Sources */,
+				A00661E5292B816500CD74A1 /* Singleton.swift in Sources */,
 				A00661D0292B80FE00CD74A1 /* AppDelegate.swift in Sources */,
 				A00661D2292B80FE00CD74A1 /* SceneDelegate.swift in Sources */,
 			);
